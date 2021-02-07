@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #A9A9A9;
+  background-color: #383838;
+}
+
+#topBanner {
+  background-color: black;
+}
+
+#topBanner h1 {
+  text-align: center;
+
+}
+
+#topBanner a {
+    color: #A9A9A9
+}
+
+/* The side navigation menu */
+.sideNav {
+  text-align: center;
+  height: 100%; /* 100% Full-height */
+  width: 200px;
+  position: fixed; /* Stay in place */
+  left: 0;
+  margin: 0;
+  background-color: #111; /* Black*/
+}
+
+.sideNav #topHr {
+  margin-top: 0;
+}
+
+.sideNav a {
+  color: #A9A9A9;
+  text-decoration: none;
+  font-size: 25px;
+  display: block;
+  }
+
+/* When you mouse over the navigation links, change their color */
+.sideNav a:hover {
+  color: #f1f1f1;
+}

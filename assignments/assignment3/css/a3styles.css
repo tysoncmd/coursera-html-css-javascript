@@ -1,0 +1,109 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #383838;
+    font-family: sans-serif;
+}
+
+#header-nav {
+    background-color: #808080;
+    border-radius: 0;
+    border: 1px solid black;
+}
+
+#header-nav button {
+    background-color: #383838;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+    margin-bottom: 15px;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+.navbar-brand h1 {
+    font-family: serif;
+    color: #383838;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#collapsable-nav a{
+    color: #383838;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#collapsable-nav a:hover, #collapsable-nav a:focus {
+    text-shadow: 1px 1px 1px #222;
+    background: #DCDCDC;
+}
+
+#title-banner h2 {
+    color: #DCDCDC;
+}
+
+#food-tiles {
+    position: relative;
+}
+
+#food-tiles .tile {
+    border: 2px solid black;
+    overflow: hidden;
+    margin-bottom: 15px;
+    background-color: #808080;
+    color: #383838;
+    padding: 2px;
+}
+
+
+#food-tiles .tile-titles {
+    font-weight: bold;
+    margin-bottom: 2px;
+    font-size: 1.2em;
+}
+
+#food-tiles .back-to-top a {
+    color: #383838;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.back-to-top a:focus, .back-to-top a:hover {
+    text-shadow: 1px 1px 1px #222;
+    background: #DCDCDC;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+  }
+  
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+  
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+  
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+}
+  
+  
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+}
