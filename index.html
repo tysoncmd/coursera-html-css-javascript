@@ -5,26 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Main Page Links</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <link rel="stylesheet" href="css/directoryStyles.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<div class="container mainHeader" id="mainHeader">
-    <h1>Links</h1>
-</div>
-<div class="container navBar">
-        <div class="row">
-            <a href="assignments/assignment2/index.html">Assignment 2</a>
+    <header>
+        <div class="container-fluid">
+            <div class="row" id="topBanner">
+                <a href="index.html">
+                    <h1>Main Page</h1>
+                </a> 
+            </div>
         </div>
-        <div class="row">
-            <a href="assignments/assignment3/index.html">Assignment 3</a>
-        </div>
-        <div class="row">
-            <a href="assignments/assignment2/index.html">Assignment 2</a>
-        </div>
-</div>
+    </header>
 
-<script src="js/jquery-3.5.1.js"></script>
+    <div id="main-content">
+        <div class="container">
+            <nav class="sideNav" id="sidNav">
+                <hr id="topHr"><h2>Links to Assignments</h2><hr>
+                <a href="assignments/assignment2/index.html">Assignment 2</a>
+                <a href="assignments/assignment3/index.html">Assignment 3</a>
+                <a href="#">Assignment 4</a>
+            </nav>
+        </div>
+    </div>
+
+
+<script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>
