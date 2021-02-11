@@ -46,6 +46,14 @@ body {
     background: #DCDCDC;
 }
 
+.navbar-toggle{
+    display: block;
+}
+
+#collapsable-nav {
+    display: block;
+}
+
 #title-banner h2 {
     color: #DCDCDC;
 }
